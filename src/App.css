@@ -82,3 +82,7 @@
 .loadingMssg {
   color: white;
 }
+
+.btn {
+  margin-left: 0.5rem;
+}

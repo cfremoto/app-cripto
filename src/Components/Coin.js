@@ -1,6 +1,6 @@
 import React from "react";
-import "../Components/Coin.css";
 import { useHistory } from "react-router-dom";
+import "../Components/Coin.css";
 
 const Coin = ({
   icon,
@@ -27,7 +27,7 @@ const Coin = ({
               <p className="priceChange green">{priceChange.toFixed(2)}%</p>
             )}
             <p className="coinVolume">$ {marketCap.toLocaleString()}</p>
-            <button
+            <button className="btn"
               onClick={() => {
                 history.push(`/CoinPage/${id}`);
               }}
